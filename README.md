@@ -97,5 +97,3 @@ python main.py
 - `.env`: Stores required environment variables such as the Cohere API key.
 
 - `requirements.txt`: Contains the project dependencies.
-
-- `README_Videos/`: Contains Arabic and English demonstration videos.
