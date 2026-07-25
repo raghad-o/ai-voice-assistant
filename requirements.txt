@@ -1,0 +1,7 @@
+RealtimeSTT[faster-whisper]
+cohere
+python-dotenv
+sounddevice
+soundfile
+numpy
+piper-tts
