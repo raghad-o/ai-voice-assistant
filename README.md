@@ -30,4 +30,67 @@ The following videos demonstrate the assistant working in both supported languag
 
 - Arabic Voice Assistant Simulation
 
+## Technologies Used
+
+- Python
+- RealtimeSTT
+- Faster-Whisper
+- Cohere LLM
+- Piper TTS
+- PyAudio
+- SoundDevice
+- Python-dotenv
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/raghad-o/ai-voice-assistant.git
+cd ai-voice-assistant
+```
+
+2. Create and activate the virtual environment:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `models` folder in the project directory, then download the required voice models:
+
+```bash
+python -m piper.download_voices ar_JO-kareem-medium --data-dir models
+python -m piper.download_voices en_US-ryan-medium --data-dir models
+```
+
+5. Create a `.env` file and add your Cohere API key using the `COHERE_API_KEY` environment variable.
+
+6. Run the assistant:
+
+```bash
+python main.py
+```
 ## Project Structure
+
+- `main.py`: The main entry point that runs the voice assistant.
+
+- `speech_to_text.py`: Handles voice input and converts speech into text.
+
+- `llm.py`: Manages communication with Cohere LLM to generate AI responses.
+
+- `text_to_speech.py`: Converts generated responses into spoken audio using Piper TTS.
+
+- `models/`: Stores the downloaded Piper voice models.
+
+- `.env`: Stores required environment variables such as the Cohere API key.
+
+- `requirements.txt`: Contains the project dependencies.
+
+- `README_Videos/`: Contains Arabic and English demonstration videos.
