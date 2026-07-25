@@ -10,7 +10,6 @@ This project implements a complete voice-based AI pipeline:
 2. **AI Processing:** Sends the recognized text to Cohere LLM to generate an intelligent response.
 3. **Text-to-Speech (TTS):** Converts the AI response back into speech using Piper TTS.
 
-The assistant supports Arabic and English conversations and provides a flexible structure that can be customized depending on the intended use case.
 
 ## Features
 
@@ -27,6 +26,7 @@ The assistant supports Arabic and English conversations and provides a flexible 
 The following videos demonstrate the assistant working in both supported languages:
 
 - English Voice Assistant Simulation
+  <video src="./README_Videos/english.mp4" controls></video>
 
 - Arabic Voice Assistant Simulation
 
