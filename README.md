@@ -26,7 +26,6 @@ This project implements a complete voice-based AI pipeline:
 The following videos demonstrate the assistant working in both supported languages:
 
 - English Voice Assistant Simulation
-  <video src="./README_Videos/english.mp4" controls></video>
 
 - Arabic Voice Assistant Simulation
 
